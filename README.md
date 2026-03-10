@@ -15,3 +15,44 @@ The sorted array should **not be returned**, but instead the sorted result shoul
 ## Example
 
 ### Sample Input 1
+-23, -40, 10, 5, -9, 0, 1
+
+
+### Sample Output 1
+[-40, -23, -9, 0, 1, 5, 10]
+
+
+### Sample Input 2
+5, 1, 1, 2, 0, 0
+
+### Sample Output 2
+[0, 0, 1, 1, 2, 5]
+
+
+
+## How Merge Sort Works
+
+1. Divide the array into two halves.
+2. Recursively sort both halves.
+3. Merge the sorted halves into a single sorted array.
+
+This process continues until the entire array becomes sorted.
+
+## Time Complexity
+
+| Case | Complexity |
+|-----|------------|
+| Best Case | O(n log n) |
+| Average Case | O(n log n) |
+| Worst Case | O(n log n) |
+
+## Space Complexity
+
+O(n) due to the temporary arrays used during merging.
+
+## Technologies Used
+
+- Python
+- Data Structures
+- Recursion
+- Divide and Conquer Algorithm
