@@ -1,16 +1,17 @@
-# Merge_Sort
 
-Problem
-Given an array of integers, sort the array in ascending order using Merge sort. The final sorted array should not be returned by the function, but instead be stored inside the array, data.
+# Merge Sort Implementation in Python
 
-Constraints
--5 * 104 <= data[i] <= 5 * 104
+This project demonstrates the implementation of the **Merge Sort algorithm**, a highly efficient sorting technique based on the **Divide and Conquer** paradigm. The algorithm recursively divides the input array into smaller subarrays, sorts them, and merges them back together to produce a fully sorted array.
 
-Sample Input - 1
--23, -40, 10, 5, -9, 0, 1
-Sample Output - 1
-[-40, -23, -9, 0, 1, 5, 10]
-Sample Input - 2
-5, 1, 1, 2, 0, 0
-Sample Output - 2
-[0, 0, 1, 1, 2, 5]
+## Problem Statement
+
+Given an array of integers, sort the array in **ascending order** using the **Merge Sort algorithm**.  
+The sorted array should **not be returned**, but instead the sorted result should be stored directly inside the input array `data`.
+
+## Constraints
+
+-5 × 10⁴ ≤ data[i] ≤ 5 × 10⁴
+
+## Example
+
+### Sample Input 1
